@@ -1,8 +1,8 @@
 {
-  "name": "react-router_example",
+  "name": "react-router-example",
   "version": "1.0.0",
   "description": "An example project to learn about react-router",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
