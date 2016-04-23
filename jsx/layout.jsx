@@ -6,10 +6,11 @@ import Footer from "./footer";
 import Header from "./header";
 
 export default class Layout extends React.Component{
+  componentDidUpdate(){
+    window.scrollTo(0,0); //Scroll to top of the page after routing
+  }
+
   render(){
-    var LinkStyle={
-      padding: '20px'
-    };
     return(
       <div>
         <Header />

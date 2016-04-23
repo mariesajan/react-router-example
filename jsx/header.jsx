@@ -22,7 +22,7 @@ export default class Header extends React.Component{
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll">
-                      <IndexLink to="/" activeStyle={activeLink}>Home</IndexLink>
+                      <Link to="/home" activeStyle={activeLink}>Home</Link>
                     </li>
                     <li class="page-scroll">
                       <Link to="/portfolio" activeStyle={activeLink}>Portfolio</Link>
@@ -30,13 +30,10 @@ export default class Header extends React.Component{
                     <li class="page-scroll">
                       <Link to="/about" activeStyle={activeLink}>About</Link>
                     </li>
-                    <li class="page-scroll">
-                      <Link to="/contact" activeStyle={activeLink}>Contact</Link>
-                    </li>
                 </ul>
             </div>
         </div>
-    </nav>
-  );
+      </nav>
+    );
   }
 }
