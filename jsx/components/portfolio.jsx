@@ -9,7 +9,6 @@ export default class Portfolio extends React.Component{
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 text-center">
-                      <input type="text" ref="myTextInput" />
                       <h2>Portfolio</h2>
                       <hr class="star-primary" />
                   </div>
