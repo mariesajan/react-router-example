@@ -21,7 +21,6 @@ export default class PortfolioModals extends React.Component{
                                 <p>Title: {title}</p>
                                 <p>Description: {description}</p>
                                 <Link to="/portfolio" class="btn btn-default"><i class="fa fa-times"></i>Close</Link>
-                                {/*<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>*/}
                             </div>
                         </div>
                     </div>

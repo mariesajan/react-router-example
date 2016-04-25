@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, browserHistory, IndexRedirect, IndexRoute } from "react-router";
-import Portfolio from "./components/portfolio";
 import About from "./components/about";
-import Layout from "./components/layout";
 import Home from "./components/home";
+import Layout from "./components/layout";
+import Portfolio from "./components/portfolio";
 import PortfolioSelect from "./components/portfolioSelect";
 
 const app = document.getElementById('app');

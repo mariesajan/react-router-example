@@ -1,10 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Link, IndexLink } from "react-router";
+import { Link } from "react-router";
 
 export default class Header extends React.Component{
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state ={collapsed:true};
   }
     toggleCollapse(){
