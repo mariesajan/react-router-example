@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, browserHistory, IndexRedirect, IndexRoute } from "react-router";
-import Portfolio from "./portfolio";
-import About from "./about";
-import Layout from "./layout";
-import Home from "./home";
-import PortfolioSelect from "./portfolioSelect";
+import Portfolio from "./components/portfolio";
+import About from "./components/about";
+import Layout from "./components/layout";
+import Home from "./components/home";
+import PortfolioSelect from "./components/portfolioSelect";
 
 const app = document.getElementById('app');
 const header =document.getElementById('app_header');
