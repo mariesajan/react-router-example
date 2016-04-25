@@ -16,7 +16,7 @@ Designed a bootstrap website using **react** and **react-router** libraries.
 3. Install dependencies.
 
     ```
-    $ npm Install
+    $ npm install
     ```
 
 4. Start server
