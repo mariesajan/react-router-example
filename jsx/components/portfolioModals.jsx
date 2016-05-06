@@ -2,7 +2,11 @@ import React from "react";
 import { Link } from "react-router";
 
 export default class PortfolioModals extends React.Component{
-
+  static propTypes= {
+    title: React.PropTypes.string.isRequired,
+    description: React.PropTypes.string.isRequired,
+    image: React.PropTypes.string.isRequired
+  }
   render(){
     const { title } = this.props;
     const { description } = this.props;

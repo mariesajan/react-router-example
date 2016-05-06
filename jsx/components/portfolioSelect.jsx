@@ -2,6 +2,9 @@ import React from "react";
 import PortfolioModals from "./portfolioModals";
 
 export default class PortfolioSelect extends React.Component{
+  static propTypes= {
+    params: React.PropTypes.object.isRequired
+  }
   render(){
     let portfolioNum = null;
     const { params } = this.props;
